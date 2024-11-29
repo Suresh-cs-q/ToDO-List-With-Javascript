@@ -1,0 +1,63 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Wrapper styling */
+dib {
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box; /* Ensures padding doesn't affect the width */
+}
+
+/* Input styling */
+#write {
+    width: 100%;
+    padding: 12px 15px;  /* Adjust padding for better fit */
+    font-size: 16px;
+    border: 2px solid #d1d5db;
+    border-radius: 5px;
+    outline: none;
+    box-sizing: border-box; /* Prevents padding from affecting width */
+    margin-bottom: 15px;  /* Space between input and list */
+}
+
+/* Focus effect */
+#write:focus {
+    border-color: #6366f1;
+}
+
+/* List styling */
+#todo-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 0;
+}
+
+/* List item styling */
+#todo-list li {
+    background: #e5e7eb;
+    margin: 5px 0;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background 0.3s, transform 0.2s;
+    font-size: 16px;
+}
+
+/* Hover effect */
+#todo-list li:hover {
+    background: #d1d5db;
+    transform: translateX(5px);
+    cursor: pointer;
+}
